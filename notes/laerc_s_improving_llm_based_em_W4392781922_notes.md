@@ -51,7 +51,7 @@ tags:
 - **Element Priority**: The **oReact** (listener reaction) component yields the most significant performance lift. Persona trackers (`xAttr`) trigger the lowest gains, validating that **dynamic state tracking** is superior to static profile reading.
 - **Cross-Dataset Robustness**: Mixed ratio scaling tracks safely with single-domain absolute peaks, proving speaker injection prevents rigid domain overfitting.
 
-### 4. Application Strategy (Prompt-Based / Agentic)
+### 4. Application Strategy
 - **Multi-Stage Intent Calibration**: Replicating a two-phase loop allows training models to first output **intent descriptions** before aggregating multiple visual-acoustic streams for the final label distribution.
 - **Historic alignment Priors**: Tracking continuous speaker dialogue windows (optimal $w=12$) builds modular profiles for adjusting high-entropy fuse rates dynamically.
 

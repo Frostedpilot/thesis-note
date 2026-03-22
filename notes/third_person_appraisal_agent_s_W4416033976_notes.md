@@ -54,7 +54,7 @@ tags:
   5. *Motivational Understanding* (Highest offset gain for Generator)
   6. *Clarity and Coherence Assessment*
 
-### 4. Application Strategy (Prompt-Based / Agentic)
+### 4. Application Strategy
 - **Conflict Adjudication via Counterfactuals**: A **"Multimodal Counterfactual Phase"** can trigger when modalities yield conflicting distribution peaks (e.g., "If the speaker were actually sad, what goal would they be achieving?"). This aids in uncovering sarcasm.
 - **Soft-Label Reward Calibration**: Critic Rewards can adapt to continuous distributions. Adjustments can reward the model based on **KL or JS-Divergence** between generated distributions and annotator soft labels.
 - **Appraisal as a "Modality Weaver"**: Primary appraisals can explicitly formulate **Modality trust priors**—assessing whether a speaker’s inferred motivation suggests a mask that prioritizes acoustic branches over text.

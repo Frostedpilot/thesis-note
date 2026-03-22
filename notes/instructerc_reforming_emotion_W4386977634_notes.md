@@ -52,7 +52,7 @@ Joint training weights auxiliary tasks at $\alpha = 0.1$:
 - **PEFT over Full Tuning**: Parameter-efficient LoRA beats all-parameters fine-tuning on dialog benchmarks. Full parameter tuning causes **overfitting within 1-3 epochs**, proving adapters prevent dilution in short-round environments (e.g., MELD).
 - **Unified Robustness**: Evaluated on UIME using Total vs Ratio Mixing; Ratio mixing preserves class balances better, proving open-domain scaling keeps performance within 1-2% of single-domain peaks.
 
-### 4. Application Strategy (Prompt-Based / Agentic)
+### 4. Application Strategy
 - **RAG for Ambiguity Resolution**: Semantic matching can retrieve previous examples of high-ambiguity or sarcasm to prompt an LLMs reasoning layer when multi-modal labels conflict.
 - **Auxiliary Multi-Task Schemes**: Auxiliary tasks structured as descriptions of Speaker intention or Modality Adjudication guide multi-task backbones on zero-shot inference setups.
 - **Context-Window tuning**: Replicating a historic contextual threshold ensures memory weights aren't diluted over long multi-party dialogues.
